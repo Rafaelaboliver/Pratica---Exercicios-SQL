@@ -1,0 +1,1 @@
+UPDATE compras SET id_produto='10' WHERE id_cliente='8';
