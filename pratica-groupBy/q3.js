@@ -1,0 +1,1 @@
+SELECT users.name AS writer, COUNT ("writerId") AS "testimonialCount" FROM testimonials JOIN users ON users.id = "writerId" WHERE users.id = 435 GROUP BY users.name;
